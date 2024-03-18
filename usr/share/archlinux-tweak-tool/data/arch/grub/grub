@@ -1,8 +1,8 @@
 # GRUB boot loader configuration
 
 GRUB_DEFAULT=0
-GRUB_TIMEOUT=5
-GRUB_DISTRIBUTOR="ArcoLinux"
+GRUB_TIMEOUT=-5
+GRUB_DISTRIBUTOR="ArchLinux"
 GRUB_CMDLINE_LINUX_DEFAULT="loglevel=3 quiet audit=0 nvme_load=yes"
 GRUB_CMDLINE_LINUX=""
 
