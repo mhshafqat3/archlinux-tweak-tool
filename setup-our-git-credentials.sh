@@ -1,15 +1,7 @@
 #!/bin/bash
 #set -e
 ##################################################################################################################
-# Author 	: Erik Dubois
-# Website   : https://www.erikdubois.be
-# Website   : https://www.alci.online
-# Website	: https://www.arcolinux.info
-# Website	: https://www.arcolinux.com
-# Website	: https://www.arcolinuxd.com
-# Website	: https://www.arcolinuxb.com
-# Website	: https://www.arcolinuxiso.com
-# Website	: https://www.arcolinuxforum.com
+# Author 	: Muhammad Hammad Shafqat
 ##################################################################################################################
 #
 #   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
@@ -54,7 +46,7 @@ echo
 #https://blog.nillsf.com/index.php/2021/05/27/github-sso-using-password-protected-ssh-keys
 
 project=$(basename `pwd`)
-githubdir="arcolinux"
+githubdir="Muhammad-Hammad-Shafqat"
 echo "-----------------------------------------------------------------------------"
 echo "this is project https://github.com/$githubdir/$project"
 echo "-----------------------------------------------------------------------------"
