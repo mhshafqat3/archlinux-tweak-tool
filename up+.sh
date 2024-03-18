@@ -1,16 +1,7 @@
 #!/bin/bash
 #set -e
 ##################################################################################################################
-# Author    : Erik Dubois
-# Website   : https://www.erikdubois.be
-# Website   : https://www.alci.online
-# Website   : https://www.ariser.eu
-# Website   : https://www.arcolinux.info
-# Website   : https://www.arcolinux.com
-# Website   : https://www.arcolinuxd.com
-# Website   : https://www.arcolinuxb.com
-# Website   : https://www.arcolinuxiso.com
-# Website   : https://www.arcolinuxforum.com
+# Author    : Muhammad Hammad Shafqat
 ##################################################################################################################
 #
 #   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
@@ -63,16 +54,16 @@ wget https://archlinux.org/packages/core/any/archlinux-mirrorlist/download --con
 
 ########### ArcoLinux
 echo "Keyring and mirror from ArcoLinux"
-rm /home/erik/ARCO/ARCOLINUX/archlinux-tweak-tool/usr/share/archlinux-tweak-tool/data/arco/packages/keyring/*
-rm /home/erik/ARCO/ARCOLINUX/archlinux-tweak-tool/usr/share/archlinux-tweak-tool/data/arco/packages/mirrorlist/*
+rm /home/$USER/ARCO/ARCOLINUX/archlinux-tweak-tool/usr/share/archlinux-tweak-tool/data/arco/packages/keyring/*
+rm /home/$USER/ARCO/ARCOLINUX/archlinux-tweak-tool/usr/share/archlinux-tweak-tool/data/arco/packages/mirrorlist/*
 
-cp /home/erik/ARCO/ARCOLINUX-REPO/arcolinux_repo/x86_64/arcolinux-keyring*pkg.tar.zst /home/erik/ARCO/ARCOLINUX/archlinux-tweak-tool/usr/share/archlinux-tweak-tool/data/arco/packages/keyring
-cp /home/erik/ARCO/ARCOLINUX-REPO/arcolinux_repo/x86_64/arcolinux-mirror*pkg.tar.zst /home/erik/ARCO/ARCOLINUX/archlinux-tweak-tool/usr/share/archlinux-tweak-tool/data/arco/packages/mirrorlist
-rm /home/erik/ARCO/ARCOLINUX/archlinux-tweak-tool/usr/share/archlinux-tweak-tool/data/arco/packages/mirrorlist/arcolinux-mirrorlist-nemesis*
+cp /home/$USER/ARCO/ARCOLINUX-REPO/arcolinux_repo/x86_64/arcolinux-keyring*pkg.tar.zst /home/erik/ARCO/ARCOLINUX/archlinux-tweak-tool/usr/share/archlinux-tweak-tool/data/arco/packages/keyring
+cp /home/$USER/ARCO/ARCOLINUX-REPO/arcolinux_repo/x86_64/arcolinux-mirror*pkg.tar.zst /home/erik/ARCO/ARCOLINUX/archlinux-tweak-tool/usr/share/archlinux-tweak-tool/data/arco/packages/mirrorlist
+rm /home/$USER/ARCO/ARCOLINUX/archlinux-tweak-tool/usr/share/archlinux-tweak-tool/data/arco/packages/mirrorlist/arcolinux-mirrorlist-nemesis*
 
 ########### xerolinux
 #echo "Mirror from XeroLinux"
-rm /home/erik/ARCO/ARCOLINUX/archlinux-tweak-tool/usr/share/archlinux-tweak-tool/data/xero/packages/mirrorlist/*
+rm /home/$USER/ARCO/ARCOLINUX/archlinux-tweak-tool/usr/share/archlinux-tweak-tool/data/xero/packages/mirrorlist/*
 
 #cp /home/erik/ARCO/ARCOLINUX-REPO/arcolinux_repo_3party/x86_64/xerolinux-mirror*pkg.tar.zst /home/erik/ARCO/ARCOLINUX/archlinux-tweak-tool/usr/share/archlinux-tweak-tool/data/xero/packages/mirrorlist/
 
